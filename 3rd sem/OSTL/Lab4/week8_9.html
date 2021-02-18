@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<p>
+Name[take only capital letters]:
+<input type="text" name="onlyalphabet" onkeypress="return
+(event.charCode > 64 && event.charCode < 91)">
+<p>
+Password[show stars]:
+<input type="password" name="pwd" maxlength="10">
+</p>
+<p>
+Phone number[10 digits only]:
+<input type="text" id="phone" name="phone" maxlength="10"
+pattern="[1-9]{1}[0-9]{9}">
+</p>
+</body>
+</html>

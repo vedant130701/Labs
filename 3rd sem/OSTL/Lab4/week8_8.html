@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Color show</title>
+</head>
+<script type="text/javascript">
+function red(){
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "red";
+ctx.fillRect(0, 0, 50, 50);
+}
+function green(){
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "green";
+ctx.fillRect(0, 0, 50, 50);
+}
+function blue(){
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "blue";
+ctx.fillRect(0, 0, 50, 50);
+}
+</script>
+<body>
+<canvas width=70 height=70 id="canvas"></canvas>
+<form>
+ <input type="radio" onclick="red();"> Red<br>
+ <input type="radio" onclick="green();"> Green<br>
+ <input type="radio" onclick="blue();"> Blue
+</form>
+</body>
+</html>

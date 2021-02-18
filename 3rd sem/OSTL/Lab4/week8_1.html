@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+DIsplay Image
+</title>
+</head>
+<body>
+<canvas id="myCanvas" width="200" height="300" style="">
+<script type="text/javascript">
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.fillStyle="black";
+ctx.fillRect(20,20,125,200);
+var d=document.getElementById("myCanvas");
+var dtx=d.getContext("2d");
+dtx.fillStyle="green";
+ctx.rotate(40*Math.PI/180);
+dtx.fillRect(100,-20,125,200);
+</script>
+</canvas>
+</body>
+</html>

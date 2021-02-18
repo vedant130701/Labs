@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#test{
+top:100px;
+margin:10px;
+padding:10px;
+width:300px;
+position:relative;
+border:5px solid black
+}
+</style>
+</head>
+<body>
+<div id="test">
+<p>click button to get offset top for the test div</p>
+<p><button onclick="myFunction()">try it</button></p>
+<p>offset top is:<span id="demo"></span></p>
+</div>
+<script>function myFunction(){
+var testDiv=document.getElementById("test");
+document.getElementById("demo").innerHTML=testDiv.offsetTop;
+}</script>
+</body>
+</html>

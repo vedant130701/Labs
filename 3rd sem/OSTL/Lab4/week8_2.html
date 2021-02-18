@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+sum</title></head>
+<body>
+<div id="sum"></div>
+<script>
+var sum=0;
+var num=prompt("enter number of elements:");
+var arr=Array();
+var n;
+var product=1;
+for(var i=0;i<num;i=i+1){
+n=prompt("enter the number");
+ sum+=parseInt(n);
+ product*=n;
+}
+document.getElementById("sum").innerHTML="sum is: "+sum+" product is: "+product;
+alert("sum is: "+sum+" product is: "+product);
+</script>
+</body>
+</html>

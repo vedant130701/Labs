@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+sort</title></head>
+<body>
+<script type="text/javascript">
+var a=parseInt(prompt("enter number1 "));
+var b=parseInt(prompt("enter number2 "));
+var c=parseInt(prompt("enter number3 "));
+ if(a>b){
+ if(a>c){max=a;}
+ else{max=c;}
+ }
+ else if(b>a){
+ if(b>c){max=b;}
+ else{max=c;}
+ }
+ alert("max is "+max);
+ if(a>b&&c>b) {
+ min=b;
+ }
+ else if(b>a&&c>a)
+ {min=a;}
+ else{min=c;}
+ alert("min is "+min);
+</script>
+</body>
+</html>
